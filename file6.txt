@@ -1,1 +1,81 @@
-Introduction to various strengh materials of the iron and there related metals which are opposite to the functional interfaces.
+git init
+helloo
+git config --global user.email "devopstraining2015@gmail.com"
+
+git config --list
+
+Phases:
+git clone https://github.com/polarapu/batch50.git
+ls
+jsdhjfujdgf:wq!
+
+hello
+touch file1
+git status
+git add file1
+git status
+git commit -m "label" file1
+git status
+git status
+git add file2
+git status
+git commit -m "label" file2
+git status
+git log
+git show cid
+
+------------------------------------
+touch file3 file4 file5
+ls
+git status
+git add *
+or
+git add .
+or
+git add -A
+or
+git add file3 file4 file5
+git status
+git commit -m "label"
+git status
+git log
+git show cid
+
+git reset HEAD file  (staging to workspace)
+git reset --soft CID  (local to staging)
+git reset --mixed cid (local to workspace)
+
+git commit -m "lable" file-name  (only modified files workspace to locall)
+
+git reset --hard cid
+
+
+git clone https://github.com/polarapu/batch50.git
+ls
+cd batch50
+ls
+touch prasad
+git status
+git add prasad
+git status
+git commit -m "sample commit by prasad"
+git status
+git push
+git pull --rebase
+git push
+--------------------------------------
+git log
+git log -3
+git log --oneline
+git log --oneline -2
+git log --author=dhinakar
+git log --author=devops --oneline
+git log --since=yy-mm-dd
+or
+git log --after="yy-mm-dd"
+git log --until=yy-mm-dd
+or
+git log --before=yy-mm-dd
+git log --since=yy-mm-dd --until=yy-mm-dd
+or
+git log --after="yy-mm-dd" --befor="yy-mm-dd"
